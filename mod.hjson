@@ -1,9 +1,9 @@
 name: "sand"
-displayName: "Greektech"
+displayName: "greektech unofficial"
 author: "Watermocules"
-description: 'Based on the hit minecraft mod "Gregtech", this mod attempt to add some realism into the game as well as making the game more grindy \n Currently work in progress, some item may be uncraftable and some block doesnt have sprite.'
-subtitle: "I always comes back"
-version: "1.0.2"
+description: 'penguinplus123 fork of mindustry gregtech mod'
+subtitle: "ohmygoshimgreggingsohard"
+version: "hell"
 minGameVersion: "140"
 main: "greg.greg"
 java: true
