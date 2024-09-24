@@ -6,7 +6,7 @@ import mindustry.type.*;
 public class GregLiquids{
     public static Liquid
 
-    steam, cl, hcl, oxygen, dio, trio, ethanol, ethy, polyethy, sulfide, sulfuric, bio, ironiiicl, vcl, pvcl;
+    steam, cl, hcl, oxygen, dio, trio, ethanol, ethy, polyethy, sulfide, sulfuric, bio, ironiiicl, vcl, pvcl, liqtit,;
     public static void load(){
         steam = new Liquid("steam", Color.valueOf("ffffff")){{
             gas = true;
@@ -65,6 +65,10 @@ public class GregLiquids{
         ethy = new Liquid("ethy", Color.valueOf("ffffff")){{
             gas = true;
             gasColor = Color.grays(0.9f);
+            // alwaysUnlocked = true;
+        }};
+        ethy = new Liquid("ethy", Color.valueOf("ffffff")){{
+            coolant = false;
             // alwaysUnlocked = true;
         }};
         sulfuric = new Liquid("sulfuric", Color.valueOf("febd00")){{
