@@ -80,6 +80,8 @@ public class GregItems{
         }};
         schizo = new Item("schizo", Color.valueOf("4a4040")){{
         }};
+        thorium = new Item("thorium", Color.valueOf("4a4040")){{
+        }};
         gerbe = new Item("gerbe", Color.valueOf("65d453")){{
         }};
 }};
