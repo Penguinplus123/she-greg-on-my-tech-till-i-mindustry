@@ -8,7 +8,7 @@ public class GregItems{
 
     copper, lead, titanium, bauxite, gallium, stone, ice, resin, iron, zinc,
     bronze, aluminum, rawIron, dustAluminum, dustGallium, silisteel, PES,
-    circuit, pizza, resistor, transistor, sulfur, tube, vacc, MS ,buldr, CLG, diode, healr,
+    circuit, pizza, resistor, transistor, sulfur, tube, vacc, MS ,buldr, CLG, diode, healr, thorium
     NAND, MVcircuit, PVCS, schizo, gerbe;
     public static void load(){
         rawIron = new Item("rawIron", Color.valueOf("d99d73")){{
